@@ -1,10 +1,9 @@
 @font-face {
   font-family: 'meucorban-icons';
-  src:  url('fonts/meucorban-icons.eot?ccg436');
-  src:  url('fonts/meucorban-icons.eot?ccg436#iefix') format('embedded-opentype'),
-    url('fonts/meucorban-icons.ttf?ccg436') format('truetype'),
-    url('fonts/meucorban-icons.woff?ccg436') format('woff'),
-    url('fonts/meucorban-icons.svg?ccg436#meucorban-icons') format('svg');
+  src:
+    url('fonts/meucorban-icons.ttf?w594w1') format('truetype'),
+    url('fonts/meucorban-icons.woff?w594w1') format('woff'),
+    url('fonts/meucorban-icons.svg?w594w1#meucorban-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mc-qr-code:before {
+  content: "\ea3d";
+}
 .mc-activity:before {
   content: "\e900";
 }

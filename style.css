@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'meucorban-icons';
   src:
-    url('fonts/meucorban-icons.ttf?w594w1') format('truetype'),
-    url('fonts/meucorban-icons.woff?w594w1') format('woff'),
-    url('fonts/meucorban-icons.svg?w594w1#meucorban-icons') format('svg');
+    url('fonts/meucorban-icons.ttf?auayup') format('truetype'),
+    url('fonts/meucorban-icons.woff?auayup') format('woff'),
+    url('fonts/meucorban-icons.svg?auayup#meucorban-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,97 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mc-connected:before {
+  content: "\ea3e";
+}
+.mc-customer-success:before {
+  content: "\ea3f";
+}
+.mc-desk-location:before {
+  content: "\ea40";
+}
+.mc-disconnected:before {
+  content: "\ea41";
+}
+.mc-payment:before {
+  content: "\ea42";
+}
+.mc-timer:before {
+  content: "\ea43";
+}
+.mc-whatsapp-filled:before {
+  content: "\ea44";
+  color: #128c7e;
+}
+.mc-clap .path1:before {
+  content: "\ea45";
+  color: rgb(178, 136, 62);
+}
+.mc-clap .path2:before {
+  content: "\ea46";
+  margin-left: -0.9423828125em;
+  color: rgb(255, 221, 103);
+}
+.mc-clap .path3:before {
+  content: "\ea47";
+  margin-left: -0.9423828125em;
+  color: rgb(255, 221, 103);
+}
+.mc-clap .path4:before {
+  content: "\ea48";
+  margin-left: -0.9423828125em;
+  color: rgb(238, 180, 86);
+}
+.mc-clap .path5:before {
+  content: "\ea49";
+  margin-left: -0.9423828125em;
+  color: rgb(255, 221, 103);
+}
+.mc-clap .path6:before {
+  content: "\ea4a";
+  margin-left: -0.9423828125em;
+  color: rgb(238, 180, 86);
+}
+.mc-clap .path7:before {
+  content: "\ea4b";
+  margin-left: -0.9423828125em;
+  color: rgb(255, 221, 103);
+}
+.mc-clap .path8:before {
+  content: "\ea4c";
+  margin-left: -0.9423828125em;
+  color: rgb(238, 180, 86);
+}
+.mc-clap .path9:before {
+  content: "\ea4d";
+  margin-left: -0.9423828125em;
+  color: rgb(255, 221, 103);
+}
+.mc-clap .path10:before {
+  content: "\ea4e";
+  margin-left: -0.9423828125em;
+  color: rgb(238, 180, 86);
+}
+.mc-clap .path11:before {
+  content: "\ea4f";
+  margin-left: -0.9423828125em;
+  color: rgb(238, 180, 86);
+}
+.mc-clap .path12:before {
+  content: "\ea50";
+  margin-left: -0.9423828125em;
+  color: rgb(189, 188, 188);
+}
+.mc-clap .path13:before {
+  content: "\ea51";
+  margin-left: -0.9423828125em;
+  color: rgb(189, 188, 188);
+}
+.mc-clap .path14:before {
+  content: "\ea52";
+  margin-left: -0.9423828125em;
+  color: rgb(189, 188, 188);
+}
 .mc-qr-code:before {
   content: "\ea3d";
 }

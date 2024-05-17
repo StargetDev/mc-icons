@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'meucorban-icons';
   src:
-    url('fonts/meucorban-icons.ttf?3myzdr') format('truetype'),
-    url('fonts/meucorban-icons.woff?3myzdr') format('woff'),
-    url('fonts/meucorban-icons.svg?3myzdr#meucorban-icons') format('svg');
+    url('fonts/meucorban-icons.ttf?89leuh') format('truetype'),
+    url('fonts/meucorban-icons.woff?89leuh') format('woff'),
+    url('fonts/meucorban-icons.svg?89leuh#meucorban-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,53 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mc-spin-loading .path1:before {
+  content: "\ea59";
+  color: rgb(144, 155, 166);
+}
+.mc-spin-loading .path2:before {
+  content: "\ea5a";
+  margin-left: -0.9375em;
+  color: rgb(200, 210, 220);
+}
+.mc-spin-loading .path3:before {
+  content: "\ea5b";
+  margin-left: -0.9375em;
+  color: rgb(233, 237, 241);
+}
+.mc-spin-loading .path4:before {
+  content: "\ea5c";
+  margin-left: -0.9375em;
+  color: rgb(126, 139, 150);
+}
+.mc-spin-loading .path5:before {
+  content: "\ea5d";
+  margin-left: -0.9375em;
+  color: rgb(162, 171, 184);
+}
+.mc-spin-loading .path6:before {
+  content: "\ea5e";
+  margin-left: -0.9375em;
+  color: rgb(185, 195, 205);
+}
+.mc-spin-loading .path7:before {
+  content: "\ea5f";
+  margin-left: -0.9375em;
+  color: rgb(95, 108, 117);
+}
+.mc-spin-loading .path8:before {
+  content: "\ea60";
+  margin-left: -0.9375em;
+  color: rgb(220, 230, 235);
+}
+.mc-spin-loading .path9:before {
+  content: "\ea61";
+  margin-left: -0.9375em;
+  color: rgb(78, 90, 97);
+}
+.mc-chat-ellipsis:before {
+  content: "\ea58";
+}
 .mc-unlink:before {
   content: "\ea55";
 }
